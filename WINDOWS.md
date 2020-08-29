@@ -271,7 +271,7 @@ Let's make Ubuntu the default terminal of your Windows terminal application. Pre
 
 We have put in red the important parts.
 Locate the `"name": "Ubuntu",`.
-Add the following line after it (**don't forget the comma at the end**):
+Add the following line after it (**don't forget to replace the last part and don't foget the comma at the end**):
 ```bash
 "startingDirectory": "//wsl$/Ubuntu/home/the-session-name-you-chose-at-the-ubuntu-install",
 ```
